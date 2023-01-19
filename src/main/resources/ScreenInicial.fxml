@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Text?>
+
+<StackPane fx:id="PainelCentral" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1050.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.lucasgpulcinelli.clienteJavafx.ControladorScreenInicial">
+   <children>
+      <TextField fx:id="areaDeTexto" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#acaoDeEnter" prefHeight="26.0" prefWidth="200.0" style="-fx-background-color: #303030; -fx-text-fill: #a0a0a0;" text="local" StackPane.alignment="BOTTOM_CENTER">
+         <StackPane.margin>
+            <Insets bottom="100.0" />
+         </StackPane.margin>
+      </TextField>
+      <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Digite o IP do servidor, ou &quot;local&quot;" StackPane.alignment="BOTTOM_CENTER">
+         <StackPane.margin>
+            <Insets bottom="130.0" />
+         </StackPane.margin>
+      </Text>
+      <ImageView fitHeight="400.0" fitWidth="500.0" layoutY="-200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/titulo.jpg" />
+         </image>
+         <StackPane.margin>
+            <Insets top="100.0" />
+         </StackPane.margin>
+      </ImageView>
+   </children>
+</StackPane>
