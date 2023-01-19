@@ -12,6 +12,7 @@ Este projeto é uma recriação do jogo de arcade space invaders feito em java 8
 - inicial.wav (música da splash screen)
 - musica\_background.wav (música durante o jogo em si)
 - PERDEU\_JOGO.wav (som de perda de jogo)
+
 Também é interessante ver que que os áudios de background podem ter problemas de sobreposição de dois áudios ou momentos de silêncio.
 
 ## Final Note / Nota Final
